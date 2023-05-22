@@ -120,11 +120,10 @@ body{
 
     margin-top: 6px;
 }
-
 .car-img{
-    margin-left: -50px;
+    height: 20px;
+    width: 100%;
 }
-
 .car-plate{
     font-weight: 700;
     font-size: 42px;
@@ -165,24 +164,26 @@ body{
     font-size: 56px;
 }
 
-/* .message-box input{
+.message-box input{
     width: 100%;
+    height: 100%;
 
-    border: 0;
+    border-radius: 50px;
     background-color: transparent;
-} */
+}
 
-/* .message-box .input{
+.message-box .input{
     position: absolute;
     width: 1px;
     height: 1px;
     padding: 0;
     margin: -1px;
     overflow: hidden;
+    border-color: black;
 
     clip: rect(0, 0, 0, 0);
     border-width: 0;
     white-space: nowrap;
-} */
+}
 
 
